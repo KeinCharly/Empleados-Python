@@ -1,0 +1,16 @@
+coches = ["JACK", "HAVVAL", "FORD", "CHANGAN", "CHVROLET"]
+for coche in coches:
+    print(coche)
+coches.sort()
+print(coches)
+coches.reverse()
+print(coches)
+coches.append("PORCHE")
+print(coches)
+coches.insert(0, "BMW")
+print(coches)
+coches.remove("HAVVAL")
+print(coches)
+coches_eliminada = coches.pop(3)
+print(coches)
+print(coches_eliminada)

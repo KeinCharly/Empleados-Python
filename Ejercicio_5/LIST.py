@@ -1,0 +1,16 @@
+paises = ["Italy", "Germany", "French", "México", "Spain"]
+for pais in paises:
+    print(pais)
+paises.sort()
+print(paises)
+paises.reverse()
+print(paises)
+paises.append("Marruecos")
+print(paises)
+paises.insert(0, "Bulgary")
+print(paises)
+paises.remove("Marruecos")
+print(paises)
+pais_eliminado = paises.pop(1)
+print(paises)
+print(pais_eliminado)

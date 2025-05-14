@@ -1,0 +1,13 @@
+Frutas={"Sandía","Mango","Melón","Peras"}
+Frutas.add("Papaya")
+print(Frutas)
+Frutas.add("Uvas")
+print(Frutas)
+Frutas.add("Bannana")
+print(Frutas)
+Frutas.remove("Bannana")
+print(Frutas)
+Frutas.discard("Uvas")
+print(Frutas)
+Frutas.clear()
+print(Frutas)
