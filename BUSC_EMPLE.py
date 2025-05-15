@@ -33,3 +33,5 @@ else:
 
 cursor.close()
 conexion.close()
+
+print("Esta es una prueba de historial")
